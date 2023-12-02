@@ -1,17 +1,21 @@
 package dev.ali.ej_persona;
 
-/**
- * Hello world!
- */
+
+
 public final class App {
     private App() {
     }
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
+   
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        Persona Maria = new Persona("Maria", "Gomez Gomez", "12345678A", 2012);
+        Persona Jose = new Persona("Jose", "López López", "98765432B", 1999);
+
+        Maria.printPersona();
+        System.err.println("----");
+        Jose.printPersona();
     }
+
+   
 }

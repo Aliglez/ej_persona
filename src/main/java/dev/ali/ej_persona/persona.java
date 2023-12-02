@@ -6,10 +6,10 @@ public class Persona {
 
     // Atributos
 
-    public String nombre;
-    public String apellidos;
-    public String dni;
-    public int añonacimiento;
+    private String nombre;
+    private String apellidos;
+    private String dni;
+    private int añonacimiento;
 
     // constructor
 
@@ -58,10 +58,10 @@ public class Persona {
     //methods and accions
 
     public void printPersona(){
-       System.out.println("Nombre: " + nombre);
-       System.out.println("Apellidos: " + apellidos);
-       System.out.println("DNI: " + dni);
-       System.out.println("Año de nacimiento: " + añonacimiento);
+       System.out.println("Nombre: " + getNombre());
+       System.out.println("Apellidos: " + getApellidos());
+       System.out.println("DNI: " + getDni());
+       System.out.println("Año de nacimiento: " + getAñonacimiento());
     }
 
 }
