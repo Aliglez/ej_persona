@@ -1,7 +1,6 @@
 package dev.ali.ej_persona;
 
 
-
 public final class App {
     private App() {
     }
@@ -15,6 +14,15 @@ public final class App {
         Maria.printPersona();
         System.err.println("----");
         Jose.printPersona();
+
+        Person Javier = new Person("Javier", "Perez Perez", "85245691Z", 1985, 'H', "España");
+        Person Susana = new Person("Susana", "Alonso Alonso", "25845695X", 1977, 'M', "Canadá");
+
+        System.err.println("----");
+        Javier.printPerson();
+        System.err.println("----");
+        Susana.printPerson();
+        
     }
 
    

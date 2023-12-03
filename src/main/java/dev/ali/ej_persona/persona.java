@@ -1,7 +1,6 @@
 package dev.ali.ej_persona;
 
 
-
 public class Persona {
 
     // Atributos
